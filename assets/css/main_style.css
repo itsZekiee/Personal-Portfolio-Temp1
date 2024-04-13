@@ -402,3 +402,84 @@ section {
   background-color: var(--secondary-color);
   color: var(--primary-color);
 }
+
+/* ========== SERVICE SECTION ========== */
+.service {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--main-background);
+}
+
+.service__content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap;
+}
+
+.service__box {
+  height: 70%;
+  width: 90%;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.service_conbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.service__title {
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem 2rem;
+  color: var(--secondary-color);
+}
+
+.serbox-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.serbox {
+  width: 30%;
+  height: 20rem;
+  background-color: var(--fifth-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 0 15px 0 15px;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.service__servic {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.service__text {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+}
