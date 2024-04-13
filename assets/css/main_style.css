@@ -45,7 +45,7 @@ img {
 
 /*============== REUSABLE CODES ==============*/
 section {
-  padding: 5.5rem 0 1rem;
+  padding: 5.5rem 0 5.5rem;
 }
 
 .section__title,
@@ -215,29 +215,72 @@ section {
 
 /* ========== ABOUT SECTION ========== */
 .about {
+  height: 100vh;
   width: 100%;
-  background-color: #00030d;
+  padding: 5.5rem 0 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.about_content {
-  width: 70%;
+.about__content {
+  font-family: "Anek Bangla", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
   margin: 0 auto;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.about_title {
-  text-align: left;
-}
-
-.about_description {
-  text-align: left;
-}
-
-.img_abt {
-  float: right;
+.abt_img {
   width: 50%;
-  height: auto;
-  margin-left: 20px;
+  height: 300px; 
+  object-fit: cover; 
+  margin-right: 100rem;
 }
+
+.about__data {
+  width: 60%;
+  text-align: right;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.about__data h3 {
+  padding-bottom: 1px;
+  text-align: left;
+}
+
+.about__title {
+  padding-bottom: 2.5rem;
+  text-align: left;
+}
+
+.about__description {
+  padding-bottom: 20px;
+  text-align: left;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.btn__resume {
+  text-align: left;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn__resume:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
