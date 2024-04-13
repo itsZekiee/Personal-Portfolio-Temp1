@@ -216,6 +216,7 @@ section {
 /* ========== ABOUT SECTION ========== */
 .about {
   width: 100%;
+  background-color: #00030d;
 }
 
 .about_content {
