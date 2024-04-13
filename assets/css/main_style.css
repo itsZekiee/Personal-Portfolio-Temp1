@@ -214,3 +214,27 @@ section {
   }
 
 /*============== ABOUT ME ==============*/
+/* ========== ABOUT SECTION ========== */
+.about {
+  width: 100%;
+}
+
+.about_content {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.about_title {
+  text-align: left;
+}
+
+.about_description {
+  text-align: left;
+}
+
+.img_abt {
+  float: right;
+  width: 50%;
+  height: auto;
+  margin-left: 20px;
+}
