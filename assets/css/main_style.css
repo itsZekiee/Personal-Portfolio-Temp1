@@ -48,19 +48,10 @@ section {
   padding: 5.5rem 0 5.5rem;
 }
 
-.section__title,
-.section__title-center {
+.section__title {
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-2);
   line-height: 140%;
-}
-
-.section__title-center {
-  text-align: center;
-}
-
-.section__description {
-    
 }
 
 .grid {
