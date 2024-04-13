@@ -15,6 +15,7 @@
   --primary-color: #141E1D;
   --secondary-color: #84b2b8;
   --tertiary-color: #CCD4DD;
+  --fifth-color:#223634;
   --main-background: #f5f5f5;
 
   /*========== Font and typography ==========*/
@@ -323,72 +324,6 @@ section {
 
 /* ========== PROJECT SECTION ========== */
 .project {
-  background-color: var(--main-background);
-}
-
-.project__content {
-  width: 70%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.project__title {
-  color: var(--text-color);
-}
-
-.project__description {
-  color: var(--text-color);
-}
-
-/* ========== PROJECT SECTION ========== */
-.project {
-  background-color: var(--main-background);
-}
-
-.project__content {
-  width: 70%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.project__title {
-  color: var(--text-color);
-}
-
-.project__description {
-  color: var(--text-color);
-}
-
-/* ========== PROJECT SECTION ========== */
-.project {
-  background-color: var(--main-background);
-}
-
-.project__content {
-  width: 70%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.project__title {
-  color: var(--text-color);
-}
-
-.project__description {
-  color: var(--text-color);
-}
-
-/* ========== PROJECT SECTION ========== */
-.project {
   width: 100vh;
   background-color: var(--main-background);
 }
@@ -459,7 +394,7 @@ section {
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;
-  background-color: var(--primary-color);
+  background-color: var(--fifth-color);
   transition: background-color 0.3s ease;
 }
 
